@@ -6,9 +6,9 @@ channels:
   - ome
 dependencies:
   - python == 3.12.*
-  - conda-forge::minio-client
+  - conda-forge::minio-client==2025.08.13.08.35.41
   - pip
   - pip:
     - napari[all]
-    - napari-ome-zarr==0.5.2
+    - napari-ome-zarr==0.7.3
 
