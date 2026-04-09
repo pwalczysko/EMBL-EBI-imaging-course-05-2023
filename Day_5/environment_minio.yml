@@ -7,7 +7,7 @@ channels:
   - joshmoore
 dependencies:
   - python == 3.9.*
-  - joshmoore::go-mc
+  - joshmoore::go-mc==2020.11.17
   - pip
   - pip:
     - napari[all]
